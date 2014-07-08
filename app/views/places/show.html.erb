@@ -1,18 +1,21 @@
 <p id="notice"><%= notice %></p>
 
+<h3><%= @place.name %></h3>
+<p>	<%= @place.neighborhood %>
+	<%= @place.address %></p>
+
+<p><%= @place.description %></p>
+
+
+
 <p>
-  <strong>Name:</strong>
-  <%= @place.name %>
+  <strong>Latitude:</strong>
+  <%= @place.latitude %>
 </p>
 
 <p>
-  <strong>Description:</strong>
-  <%= @place.description %>
-</p>
-
-<p>
-  <strong>Neighborhood:</strong>
-  <%= @place.neighborhood %>
+  <strong>Longitude:</strong>
+  <%= @place.longitude %>
 </p>
 
 <p>
